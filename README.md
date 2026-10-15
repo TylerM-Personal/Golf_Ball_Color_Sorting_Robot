@@ -21,6 +21,12 @@ Presentation photos show the robot prototype, roller intake, internal mechanism,
 | --- | --- |
 | ![Internal robot mechanism](assets/internal-mechanism.jpg) | ![Controller and power wiring](assets/controller-power-wiring.jpg) |
 
+## Competition Day
+
+![Golf ball sorting robot on competition day](assets/golf_ball_robot_competition_day.png)
+
+*The robot on the ENR 259 course during competition day, with the event audience gathered nearby.*
+
 ## System Overview
 
 - A TCS34725 color sensor classifies each ball while a Teensy 4.0 coordinates the mission state machine.
