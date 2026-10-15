@@ -8,7 +8,7 @@ Built around a Teensy 4.0, this C/C++ robot classifies red, white, and blue golf
 
 ![Autonomous color sorting robot architecture](assets/color-sorting-architecture.svg)
 
-[View the robot source and wiring notes](ENR259_Robot_Project/)
+[View the robot source and wiring notes](https://github.com/TylerM-Personal/ENR259_Robot_Project/tree/main/ENR259_Robot_Project)
 
 ## Smart Thermostat Fan
 
@@ -16,7 +16,7 @@ Bare-metal C and Assembly firmware for the TI MSPM0G3507 samples a thermistor an
 
 ![Smart thermostat fan architecture](assets/thermostat-fan-architecture.svg)
 
-[View the thermostat source](projects/smart-thermostat-fan/)
+[View the thermostat source](https://github.com/TylerM-Personal/ENR259_Robot_Project/tree/main/projects/smart-thermostat-fan)
 
 ## EV3 Hockey Puck Robot
 
@@ -24,14 +24,14 @@ The Pybricks program uses reflected-light and color readings to follow the cours
 
 ![EV3 hockey robot architecture](assets/ev3-hockey-robot-architecture.svg)
 
-[View the EV3 source](projects/ev3-hockey-robot/)
+[View the EV3 source](https://github.com/TylerM-Personal/ENR259_Robot_Project/tree/main/projects/ev3-hockey-robot)
 
 ## Source map
 
 | Project | Main technologies | Source |
 | --- | --- | --- |
-| Color sorting robot | C/C++, Teensy 4.0, I²C sensors, motor and servo control | [Project folder](ENR259_Robot_Project/) |
-| Smart thermostat fan | C, Assembly, TI MSPM0G3507, ADC, PWM, SPI, UART | [Project folder](projects/smart-thermostat-fan/) |
-| EV3 hockey robot | Python, Pybricks, line following, ultrasonic sensing | [Project folder](projects/ev3-hockey-robot/) |
+| Color sorting robot | C/C++, Teensy 4.0, I²C sensors, motor and servo control | [Project folder](https://github.com/TylerM-Personal/ENR259_Robot_Project/tree/main/ENR259_Robot_Project) |
+| Smart thermostat fan | C, Assembly, TI MSPM0G3507, ADC, PWM, SPI, UART | [Project folder](https://github.com/TylerM-Personal/ENR259_Robot_Project/tree/main/projects/smart-thermostat-fan) |
+| EV3 hockey robot | Python, Pybricks, line following, ultrasonic sensing | [Project folder](https://github.com/TylerM-Personal/ENR259_Robot_Project/tree/main/projects/ev3-hockey-robot) |
 
 The thermostat and EV3 folders include source and setup notes; generated build outputs are omitted.
