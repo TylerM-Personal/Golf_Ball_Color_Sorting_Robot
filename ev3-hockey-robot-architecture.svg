@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title desc">
+  <title id="title">EV3 hockey puck robot</title>
+  <desc id="desc">Color and distance sensors guide Pybricks navigation and motorized puck shooting.</desc>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#92a8c4"/></marker>
+    <style>
+      .bg { fill: #0d1726; }
+      .heading { fill: #f3f6fb; font: 700 27px Segoe UI, Arial, sans-serif; }
+      .subtitle { fill: #aebdd1; font: 15px Segoe UI, Arial, sans-serif; }
+      .card-title { fill: #f3f6fb; font: 700 19px Segoe UI, Arial, sans-serif; }
+      .card-copy { fill: #d1dbea; font: 15px Segoe UI, Arial, sans-serif; }
+      .arrow { fill: none; stroke: #92a8c4; stroke-width: 3; }
+      .arrow-label { fill: #c2d0e2; font: 13px Segoe UI, Arial, sans-serif; }
+      .footer { fill: #8ea2bb; font: 13px Segoe UI, Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect class="bg" width="100%" height="100%" rx="24"/>
+  <text x="40" y="47" class="heading">EV3 hockey puck robot</text>
+  <text x="40" y="75" class="subtitle">Color and distance sensors guide Pybricks navigation and motorized puck shooting.</text>
+  <rect x="38" y="139" width="300" height="215" rx="18" fill="#17263b" stroke="#64c2a6" stroke-width="2"/>
+<rect x="38" y="139" width="300" height="8" rx="4" fill="#64c2a6"/>
+<text x="60" y="181" class="card-title">EV3 sensors</text>
+<text x="60" y="216" class="card-copy">Color / reflected light · S4</text>
+<text x="60" y="243" class="card-copy">Ultrasonic distance · S2</text>
+<text x="60" y="270" class="card-copy">Checkpoint and goal detection</text>
+<rect x="490" y="162" width="300" height="170" rx="18" fill="#17263b" stroke="#5f9ee8" stroke-width="2"/>
+<rect x="490" y="162" width="300" height="8" rx="4" fill="#5f9ee8"/>
+<text x="512" y="204" class="card-title">Pybricks program</text>
+<text x="512" y="239" class="card-copy">Line-following control</text>
+<text x="512" y="266" class="card-copy">Route and checkpoint logic</text>
+<text x="512" y="293" class="card-copy">Distance-gated shot sequence</text>
+<rect x="942" y="139" width="300" height="215" rx="18" fill="#17263b" stroke="#e9ad61" stroke-width="2"/>
+<rect x="942" y="139" width="300" height="8" rx="4" fill="#e9ad61"/>
+<text x="964" y="181" class="card-title">EV3 motors</text>
+<text x="964" y="216" class="card-copy">Drivebase · C and B</text>
+<text x="964" y="243" class="card-copy">Puck launcher arm · D</text>
+<text x="964" y="270" class="card-copy">Five puck shot sequence</text>
+<path d="M338 246 L490 246" class="arrow" marker-end="url(#arrowhead)"/>
+<path d="M790 246 L942 246" class="arrow" marker-end="url(#arrowhead)"/>
+<text x="40" y="435" class="footer">Ports and behaviors are read from hockey_robot.py; the diagram does not represent a measured field layout.</text>
+</svg>
