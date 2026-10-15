@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title desc">
+  <title id="title">Autonomous color sorting robot</title>
+  <desc id="desc">Sensor inputs feed Teensy mission logic, which coordinates drive, sorting and drop-off actuators.</desc>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#92a8c4"/></marker>
+    <style>
+      .bg { fill: #0d1726; }
+      .heading { fill: #f3f6fb; font: 700 27px Segoe UI, Arial, sans-serif; }
+      .subtitle { fill: #aebdd1; font: 15px Segoe UI, Arial, sans-serif; }
+      .card-title { fill: #f3f6fb; font: 700 19px Segoe UI, Arial, sans-serif; }
+      .card-copy { fill: #d1dbea; font: 15px Segoe UI, Arial, sans-serif; }
+      .arrow { fill: none; stroke: #92a8c4; stroke-width: 3; }
+      .arrow-label { fill: #c2d0e2; font: 13px Segoe UI, Arial, sans-serif; }
+      .footer { fill: #8ea2bb; font: 13px Segoe UI, Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect class="bg" width="100%" height="100%" rx="24"/>
+  <text x="40" y="47" class="heading">Autonomous color sorting robot</text>
+  <text x="40" y="75" class="subtitle">Sensor inputs feed Teensy mission logic, which coordinates drive, sorting and drop-off actuators.</text>
+  <rect x="45" y="142" width="310" height="205" rx="18" fill="#17263b" stroke="#64c2a6" stroke-width="2"/>
+<rect x="45" y="142" width="310" height="8" rx="4" fill="#64c2a6"/>
+<text x="67" y="184" class="card-title">Sensors</text>
+<text x="67" y="219" class="card-copy">TCS34725 color sensor</text>
+<text x="67" y="246" class="card-copy">MPU-6050 heading feedback</text>
+<text x="67" y="273" class="card-copy">Limit switches for alignment</text>
+<rect x="485" y="164" width="310" height="160" rx="18" fill="#17263b" stroke="#5f9ee8" stroke-width="2"/>
+<rect x="485" y="164" width="310" height="8" rx="4" fill="#5f9ee8"/>
+<text x="507" y="206" class="card-title">Teensy 4.0</text>
+<text x="507" y="241" class="card-copy">Mission state machine</text>
+<text x="507" y="268" class="card-copy">Color sorting and gate timing</text>
+<text x="507" y="295" class="card-copy">Heading correction</text>
+<rect x="925" y="132" width="310" height="225" rx="18" fill="#17263b" stroke="#e9ad61" stroke-width="2"/>
+<rect x="925" y="132" width="310" height="8" rx="4" fill="#e9ad61"/>
+<text x="947" y="174" class="card-title">Actuators</text>
+<text x="947" y="209" class="card-copy">TB6612FNG drive motors</text>
+<text x="947" y="236" class="card-copy">Sorter and wall gate servos</text>
+<text x="947" y="263" class="card-copy">Scooper servos and conveyor</text>
+<path d="M355 244 L485 244" class="arrow" marker-end="url(#arrowhead)"/>
+<text x="420.0" y="232.0" class="arrow-label" text-anchor="middle">I²C / GPIO</text>
+<path d="M795 244 L925 244" class="arrow" marker-end="url(#arrowhead)"/>
+<text x="860.0" y="232.0" class="arrow-label" text-anchor="middle">motor / servo control</text>
+<text x="40" y="435" class="footer">The sensor and actuator groups reflect the Teensy project configuration and firmware modules in this repository.</text>
+</svg>
